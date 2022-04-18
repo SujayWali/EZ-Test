@@ -1,13 +1,142 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #112949 0% 0% no-repeat padding-box;
+  background-image: url("ai-operating-system-on-a-dark-blue-background-vector@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.form__container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: #112949 0% 0% no-repeat padding-box;
+  background-image: url("ai-operating-system-on-a-dark-blue-background-vector@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.form__container form {
+  box-shadow: rgba(95, 94, 94, 0.979) 0px 1px 2px 0px,
+    rgba(108, 110, 112, 0.521) 0px 1px 3px 1px;
+  padding: 20px;
+  height: 500px;
+  width: 400px;
+
+  color: azure;
+  /* UI Properties */
+  background: #091526 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+.form__heading {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+}
+.form__button {
+  width: 100%;
+  padding: 5px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  text-align: center;
+  font: normal normal normal 16px/19px Louis George Café;
+  letter-spacing: 0px;
+  color: #3cc3f2;
+  opacity: 1;
+}
+.form__button:hover {
+  text-align: center;
+  font: normal normal normal 16px/19px Louis George Café;
+  letter-spacing: 0px;
+  color: #f1f7f9;
+  background: #3cc3f2 0% 0% no-repeat padding-box;
+  border: 1px solid #58c8ef;
+  border-radius: 8px;
+  opacity: 1;
+  transition: 0.2s;
+}
+.form__submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 10px 0px;
+}
+.form__submit-btn:hover {
+  opacity: 0.9;
+}
+
+.btn-controls {
+  /* Layout Properties */
+  top: 345px;
+  left: 730px;
+  width: 128px;
+  height: 39px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  text-align: center;
+  font: normal normal normal 16px/19px Louis George Café;
+  letter-spacing: 0px;
+  color: #3cc3f2;
+  opacity: 1;
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 682px;
+}
+
+.btn-controls:hover {
+  /* Layout Properties */
+  top: 345px;
+  left: 730px;
+  width: 128px;
+  height: 39px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 16px/19px Louis George Café;
+  letter-spacing: 0px;
+  color: #f1f7f9;
+  background: #3cc3f2 0% 0% no-repeat padding-box;
+  border: 1px solid #58c8ef;
+  border-radius: 8px;
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 682px;
+  opacity: 1;
+  transition: 1s;
+}
+.content {
+  min-height: 73vh !important;
+}
+
+label {
+  margin: 10px;
+  color: aliceblue;
+}
+
+p {
+  margin: 2px;
+  color: aliceblue;
+}
+
+h6 {
+  margin: 10px;
+  color: aliceblue;
+}
+
+h4 {
+  margin: 10px;
+  color: aliceblue;
 }
