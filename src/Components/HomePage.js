@@ -46,7 +46,7 @@ const HomePage = () => {
     } else if (whatsapp === "") {
       toast.error("WhatsApp Number Is Required");
     } else {
-      localStorage.setItem("irstname", firstname);
+      localStorage.setItem("firstname", firstname);
       localStorage.setItem("lastname", lastname);
       localStorage.setItem("email", email);
       localStorage.setItem("organisation", organisation);
