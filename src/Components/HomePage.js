@@ -46,7 +46,7 @@ const HomePage = () => {
     } else if (whatsapp === "") {
       toast.error("WhatsApp Number Is Required");
     } else {
-      localStorage.setItem("firstname", firstname);
+      localStorage.setItem("irstname", firstname);
       localStorage.setItem("lastname", lastname);
       localStorage.setItem("email", email);
       localStorage.setItem("organisation", organisation);
@@ -172,7 +172,7 @@ const HomePage = () => {
 
             <button
               type="submit"
-              className="btn-controls"
+              class="form__submit-btn"
               onClick={handleSubmit}
             >
               Save
